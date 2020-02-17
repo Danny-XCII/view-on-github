@@ -1,0 +1,56 @@
+.vog-bar {
+  position: fixed;
+  width: 260px;
+  transform: translate( -180px, 0 );
+  height: 60px;
+  top: 5%;
+  left: 0;
+  background-color: rgba( 0, 0, 0, 0.25 );
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: transform linear 1s;
+  cursor: pointer;
+
+  p {
+    margin-right: 2rem;
+    display: inline-block;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+  }
+
+  > a {
+    display: inline-block;
+    margin-right: 1.5rem;
+    height: 40px;
+  }
+
+  &:hover {
+    transform: translate( 0, 0 );
+  }
+}
+
+@media ( hover: none ) and ( pointer: coarse ) {
+  .vog-bar {
+    width: 60px;
+    border-radius: 50%;
+    left: 5%;
+    transform: translate( 0, 0 );
+    justify-content: center;
+
+    > a {
+      margin-right: 0rem;
+    }
+
+    p {
+      display: none;
+    }
+  }
+}

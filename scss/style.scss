@@ -1,17 +1,21 @@
+@import "settings";
+
 .vog-bar {
+  font-family: $fontFamily;
   position: fixed;
+  font-weight: 300;
   width: 260px;
   transform: translate( -180px, 0 );
   height: 60px;
   top: 5%;
   left: 0;
-  background-color: rgba( 77, 77, 77, .75 );
+  background-color: $bgColor;
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  transition: transform linear 1s;
+  transition: transform linear $transitionTime;
   cursor: pointer;
   z-index: 99;
 

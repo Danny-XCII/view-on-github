@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300&display=swap");
 .vog-bar {
+  font-family: "Poppins", sans-serif;
   position: fixed;
+  font-weight: 300;
   width: 260px;
   transform: translate(-180px, 0);
   height: 60px;

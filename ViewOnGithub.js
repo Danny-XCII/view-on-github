@@ -28,6 +28,10 @@ class ViewOnGithub {
 
             html += "\n <style>.vog-bar { background-color: #8c7ae6; }<style>";
 
+        } else if ( this.theme == "green" ) {
+
+            html += "\n <style>.vog-bar { background-color: #05c46b; }</style>";
+
         }
 
         head.insertAdjacentHTML( "beforeend", html );

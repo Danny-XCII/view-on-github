@@ -13,7 +13,7 @@ The class constructor takes in just **three** parameters, with an optional fourt
 - `el` - the ID of the HTML element that you'd like to use for the "VOG" bar.
 - `username` - your Github username.
 - `project` - the name of your project on Github (the slug).
-- `theme` - optional. Currently only "purple" is valid. More themes to be added soon!
+- `theme` - optional. Currently only "purple" and "green" are valid. More themes to be added soon!
 
 To add your own "VOG" bar, simply add the below to your HTML page before the closing `</body>` tag:
 
